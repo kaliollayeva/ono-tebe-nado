@@ -1,12 +1,13 @@
+/* не сработал PostCSS Sorting */
+
 .header {
   display: grid;
-  font-size: 18px;
-  font-weight: normal;
-
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr;
   align-items: center;
-  margin: 92px 24px;
+  margin: 92px 24px;  
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__menu {
@@ -18,10 +19,10 @@
 }
 
 .header__links-list-item {
-  list-style: none;
   position: relative;
   margin-left: 13px;
   padding-left: 18px;
+  list-style: none;
 }
 
 .header__links-list-item::before {
@@ -51,15 +52,14 @@
 }
 
 .cover {
-  color: white;
   position: relative;
+  padding: 165px 50px 50px 50px;  
   height: 757px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
+  color: white;
   box-sizing: border-box;
-  padding: 165px 50px 50px 50px;
 }
 
 .overlay {
@@ -73,19 +73,19 @@
 }
 
 .cover-under {
+  position: relative;
+  z-index: 2;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-
-  position: relative;
-  z-index: 2;
 }
+
 .cover__title {
-  font-size: 100px;
   display: flex;
   flex-direction: column;
   font-weight: bold;
+  font-size: 100px;  
 }
 
 .aligned-text {
