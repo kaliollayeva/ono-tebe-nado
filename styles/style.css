@@ -229,7 +229,7 @@
   margin: 148px 24px 0 24px;
   padding: 35px 0 0 47px;
   display: grid;
-  grid-template-columns: 334px auto;
+  grid-template-columns: 312px auto;
 }
 
 .about__logo {
@@ -270,13 +270,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  margin: 180px 50px 88px 50px;
-}
-
-.footer-address {
-  /* grid-column: 1 / 2; */
-  /* font-style: normal;
-  line-height: 24.3px; */
+  margin: 181px 50px 88px 50px;
 }
 
 .footer__menu {
