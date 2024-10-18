@@ -36,7 +36,6 @@
 }
 
 .header__links-list-item_no-bullit {
-  text-decoration: none;
   margin-left: 0;
   padding-left: 0;
 }
@@ -46,11 +45,19 @@
   list-style: none;
 }
 
+.no-bottom-line-link {
+  text-decoration: none;
+}
+
 .header__logo {
   grid-column: 2 / 3;
   justify-self: center;
   width: 148px;
   height: 105px;
+}
+
+.header__logo img {
+  height: 103px;
 }
 
 .address {
@@ -224,6 +231,8 @@
 }
 
 .about {
+  width: 1052px;
+  height: 595px;
   margin: 148px 24px 0 24px;
   padding: 35px 0 0 47px;
   display: grid;
@@ -262,6 +271,11 @@
 
 .about__text p:first-child {
   margin-bottom: 24px;
+  padding-right: 5px;
+}
+
+.about-text p:nth-child(2) {
+  letter-spacing: 0.64px;
 }
 
 .footer {
